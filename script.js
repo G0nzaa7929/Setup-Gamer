@@ -3,8 +3,8 @@
    Ejemplo: https://www.amazon.com/dp/B0XXXXXXXX?tag=tu-id-20 o un enlace corto https://amzn.to/xxxxxxx */
 const PRODUCTS = [
   {name:"Teclado mecánico inalámbrico Redragon", cat:"Teclados", emoji:"⌨️", color:"#CFE8EC",
-   desc:"Redragon K742 Wireless Mechanical Gaming Keyboard with Knob for PC Computer
-Teclado cremoso inalámbrico Bluetooth 5.0/2.4GHz/USB C con teclado numérico, retroiluminación RGB, intercambiable en caliente", url:"https://www.amazon.com/dp/B0F93FMYD5/ref=cm_sw_r_as_gl_apa_gl_i_BHQ3QWEY8W8E2RKFCATC?linkCode=ml1&tag=gonza03c-21&linkId=b81984b7a1de32b48187ae59b4575563&gaOptInStatus=true"},
+   desc:"Redragon K742 Wireless Mechanical Gaming Keyboard with Knob for PC Computer ,Teclado cremoso inalámbrico Bluetooth 5.0/2.4GHz/USB C con teclado numérico, retroiluminación RGB, intercambiable en caliente ",
+   url:"https://www.amazon.com/dp/B0F93FMYD5/ref=cm_sw_r_as_gl_apa_gl_i_BHQ3QWEY8W8E2RKFCATC?linkCode=ml1&tag=gonza03c-21&linkId=b81984b7a1de32b48187ae59b4575563&gaOptInStatus=true" },
 
   {name:"Ratón ergonómico vertical", cat:"Ratones", price:"$29.99", emoji:"🖱️", color:"#F6E3B4",
    desc:"Posición natural de la muñeca para jornadas largas sin molestias.",
