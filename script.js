@@ -1,0 +1,54 @@
+/* ============ EDITA AQUÍ TUS PRODUCTOS ============
+   url: tu enlace de afiliado (el que generas con Amazon Asociados → SiteStripe).
+   Ejemplo: https://www.amazon.com/dp/B0XXXXXXXX?tag=tu-id-20 o un enlace corto https://amzn.to/xxxxxxx */
+const PRODUCTS = [
+  {name:"Teclado mecánico inalámbrico", cat:"Teclados", price:"$49.99", emoji:"⌨️", color:"#CFE8EC",
+   desc:"Switches silenciosos, conexión Bluetooth y batería para semanas.",
+   url:"https://www.amazon.com/dp/PEGA-AQUI-ASIN?tag=TU-ID-20"},
+  {name:"Ratón ergonómico vertical", cat:"Ratones", price:"$29.99", emoji:"🖱️", color:"#F6E3B4",
+   desc:"Posición natural de la muñeca para jornadas largas sin molestias.",
+   url:"https://www.amazon.com/dp/PEGA-AQUI-ASIN?tag=TU-ID-20"},
+  {name:"Soporte para portátil de aluminio", cat:"Accesorios", price:"$24.90", emoji:"💻", color:"#D9E4F5",
+   desc:"Plegable, regulable en altura y compatible con portátiles de hasta 17 pulgadas.",
+   url:"https://www.amazon.com/dp/PEGA-AQUI-ASIN?tag=TU-ID-20"},
+  {name:"Lámpara LED de escritorio", cat:"Iluminación", price:"$34.95", emoji:"💡", color:"#F3D9D0",
+   desc:"Luz regulable en temperatura y brillo, con carga USB integrada.",
+   url:"https://www.amazon.com/dp/PEGA-AQUI-ASIN?tag=TU-ID-20"},
+  {name:"Auriculares con cancelación de ruido", cat:"Audio", price:"$79.00", emoji:"🎧", color:"#DDD6F0",
+   desc:"Aíslate del ruido y atiende llamadas con micrófono claro.",
+   url:"https://www.amazon.com/dp/PEGA-AQUI-ASIN?tag=TU-ID-20"},
+  {name:"Alfombrilla XXL de escritorio", cat:"Accesorios", price:"$18.50", emoji:"🟦", color:"#D5ECD9",
+   desc:"Superficie suave y base antideslizante para teclado y ratón.",
+   url:"https://www.amazon.com/dp/PEGA-AQUI-ASIN?tag=TU-ID-20"}
+];
+/* =================================================== */
+
+const grid = document.getElementById('grid');
+const filters = document.getElementById('filters');
+const cats = ['Todos', ...new Set(PRODUCTS.map(p => p.cat))];
+let active = 'Todos';
+
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+
+function render(){
+  filters.innerHTML = cats.map(c =>
+    `<button class="chip" aria-pressed="${c===active}" data-c="${esc(c)}">${esc(c)}</button>`).join('');
+  grid.innerHTML = PRODUCTS.filter(p => active==='Todos' || p.cat===active).map(p => `
+    <article class="card">
+      <div class="thumb" style="background:${p.color}" aria-hidden="true">${p.emoji}</div>
+      <div class="body">
+        <p class="cat">${esc(p.cat)}</p>
+        <h2>${esc(p.name)}</h2>
+        <p class="desc">${esc(p.desc)}</p>
+        <div class="row">
+          <span class="price">${esc(p.price)}</span>
+          <a class="buy" href="${esc(p.url)}" target="_blank" rel="sponsored nofollow noopener noreferrer">Comprar en Amazon</a>
+        </div>
+      </div>
+    </article>`).join('');
+}
+filters.addEventListener('click', e => {
+  const b = e.target.closest('.chip'); if(!b) return;
+  active = b.dataset.c; render();
+});
+render();
