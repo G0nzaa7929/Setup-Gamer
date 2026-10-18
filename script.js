@@ -17,9 +17,9 @@ const PRODUCTS = [
   {name:"Auriculares con cancelación de ruido", cat:"Audio", price:"$79.00", emoji:"🎧", color:"#DDD6F0",
    desc:"Aíslate del ruido y atiende llamadas con micrófono claro.",
    url:"https://www.amazon.com/dp/PEGA-AQUI-ASIN?tag=TU-ID-20"},
-  {name:"Alfombrilla XXL de escritorio", cat:"Accesorios", price:"$18.50", emoji:"🟦", color:"#D5ECD9",
-   desc:"Superficie suave y base antideslizante para teclado y ratón.",
-   url:"https://www.amazon.com/dp/PEGA-AQUI-ASIN?tag=TU-ID-20"}
+  {name:"Mousepad Aothia", cat:"Accesorios", emoji:"🟦", color:"#D5ECD9",
+   desc:"Aothia - Protector de escritorio de piel sintética antideslizante e impermeable para mouse, escritorio, oficina, hogar, laptop, 23.6 x 13.7 pulgadas, negro.",
+   url:"https://link.amazon/B0dcWPvbo"}
 ];
 /* =================================================== */
 
