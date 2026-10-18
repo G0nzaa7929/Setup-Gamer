@@ -8,16 +8,21 @@ const PRODUCTS = [
 
   {name:"Ratón ergonómico vertical", cat:"Ratones", price:"$29.99", emoji:"🖱️", color:"#F6E3B4",
    desc:"Posición natural de la muñeca para jornadas largas sin molestias.",
-   url:"https://www.amazon.com/dp/PEGA-AQUI-ASIN?tag=TU-ID-20"},
+url:"https://www.amazon.com/dp/PEGA-AQUI-ASIN?tag=TU-ID-20"},
+
   {name:"Soporte para portátil de aluminio", cat:"Accesorios", price:"$24.90", emoji:"💻", color:"#D9E4F5",
    desc:"Plegable, regulable en altura y compatible con portátiles de hasta 17 pulgadas.",
-   url:"https://www.amazon.com/dp/PEGA-AQUI-ASIN?tag=TU-ID-20"},
+url:"https://www.amazon.com/dp/PEGA-AQUI-ASIN?tag=TU-ID-20"},
+
   {name:"Lámpara LED de escritorio", cat:"Iluminación", price:"$34.95", emoji:"💡", color:"#F3D9D0",
    desc:"Luz regulable en temperatura y brillo, con carga USB integrada.",
-   url:"https://www.amazon.com/dp/PEGA-AQUI-ASIN?tag=TU-ID-20"},
-  {name:"Auriculares con cancelación de ruido", cat:"Audio", price:"$79.00", emoji:"🎧", color:"#DDD6F0",
-   desc:"Aíslate del ruido y atiende llamadas con micrófono claro.",
-   url:"https://www.amazon.com/dp/PEGA-AQUI-ASIN?tag=TU-ID-20"},
+url:"https://www.amazon.com/dp/PEGA-AQUI-ASIN?tag=TU-ID-20"},
+
+  {name:"Auriculares con cancelación de ruido", cat:"Audio", price:"", emoji:"🎧", color:"#DDD6F0",
+   desc:"Acer OHR703 Auriculares Bluetooth con cancelación de ruido adaptativos
+Audio inalámbrico LDAC de alta resolución, cancelación de ruido híbrido de 45 dB, modo de transparencia",
+url:"https://link.amazon/B0bFg5CB9"},
+
   {name:"Mousepad Aothia", cat:"Accesorios", emoji:"🟦", color:"#D5ECD9",
    desc:"Aothia - Protector de escritorio de piel sintética antideslizante e impermeable para mouse, escritorio, oficina, hogar, laptop, 23.6 x 13.7 pulgadas, negro.",
    url:"https://link.amazon/B0dcWPvbo"}
