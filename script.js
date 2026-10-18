@@ -19,8 +19,7 @@ url:"https://www.amazon.com/dp/PEGA-AQUI-ASIN?tag=TU-ID-20"},
 url:"https://www.amazon.com/dp/PEGA-AQUI-ASIN?tag=TU-ID-20"},
 
   {name:"Auriculares con cancelación de ruido", cat:"Audio", price:"", emoji:"🎧", color:"#DDD6F0",
-   desc:"Acer OHR703 Auriculares Bluetooth con cancelación de ruido adaptativos
-Audio inalámbrico LDAC de alta resolución, cancelación de ruido híbrido de 45 dB, modo de transparencia",
+   desc:"Acer OHR703 Auriculares Bluetooth con cancelación de ruido adaptativos Audio inalámbrico LDAC de alta resolución, cancelación de ruido híbrido de 45 dB, modo de transparencia.",
 url:"https://link.amazon/B0bFg5CB9"},
 
   {name:"Mousepad Aothia", cat:"Accesorios", emoji:"🟦", color:"#D5ECD9",
