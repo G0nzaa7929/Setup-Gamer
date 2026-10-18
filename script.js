@@ -2,27 +2,27 @@
    url: tu enlace de afiliado (el que generas con Amazon Asociados → SiteStripe).
    Ejemplo: https://www.amazon.com/dp/B0XXXXXXXX?tag=tu-id-20 o un enlace corto https://amzn.to/xxxxxxx */
 const PRODUCTS = [
-  {name:"Teclado mecánico inalámbrico Redragon", cat:"Teclados", emoji:"⌨️", color:"#CFE8EC",
+  {name:"Teclado mecánico inalámbrico Redragon", cat:"Teclados", price:"", img:"",
    desc:"Redragon K742 Wireless Mechanical Gaming Keyboard with Knob for PC Computer ,Teclado cremoso inalámbrico Bluetooth 5.0/2.4GHz/USB C con teclado numérico, retroiluminación RGB, intercambiable en caliente ",
    url:"https://www.amazon.com/dp/B0F93FMYD5/ref=cm_sw_r_as_gl_apa_gl_i_BHQ3QWEY8W8E2RKFCATC?linkCode=ml1&tag=gonza03c-21&linkId=b81984b7a1de32b48187ae59b4575563&gaOptInStatus=true" },
 
-  {name:"Ratón ergonómico vertical", cat:"Ratones", price:"$29.99", emoji:"🖱️", color:"#F6E3B4",
+  {name:"Ratón ergonómico vertical", cat:"Ratones", price:"", img:"",
    desc:"Posición natural de la muñeca para jornadas largas sin molestias.",
 url:"https://www.amazon.com/dp/PEGA-AQUI-ASIN?tag=TU-ID-20"},
 
-  {name:"Soporte para portátil de aluminio", cat:"Accesorios", price:"$24.90", emoji:"💻", color:"#D9E4F5",
+  {name:"Soporte para portátil de aluminio", cat:"Accesorios", price:"", img:"",
    desc:"Plegable, regulable en altura y compatible con portátiles de hasta 17 pulgadas.",
 url:"https://www.amazon.com/dp/PEGA-AQUI-ASIN?tag=TU-ID-20"},
 
-  {name:"Lámpara LED de escritorio", cat:"Iluminación", price:"$34.95", emoji:"💡", color:"#F3D9D0",
+  {name:"Lámpara LED de escritorio", cat:"Iluminación", price:"", img:"",
    desc:"Luz regulable en temperatura y brillo, con carga USB integrada.",
 url:"https://www.amazon.com/dp/PEGA-AQUI-ASIN?tag=TU-ID-20"},
 
-  {name:"Auriculares con cancelación de ruido", cat:"Audio", price:"", emoji:"🎧", color:"#DDD6F0",
+  {name:"Auriculares con cancelación de ruido", cat:"Audio", price:"", img:"",
    desc:"Acer OHR703 Auriculares Bluetooth con cancelación de ruido adaptativos Audio inalámbrico LDAC de alta resolución, cancelación de ruido híbrido de 45 dB, modo de transparencia.",
 url:"https://link.amazon/B0bFg5CB9"},
 
-  {name:"Mousepad Aothia", cat:"Accesorios", emoji:"🟦", color:"#D5ECD9",
+  {name:"Mousepad Aothia", cat:"Accesorios", price:"", img:"",
    desc:"Aothia - Protector de escritorio de piel sintética antideslizante e impermeable para mouse, escritorio, oficina, hogar, laptop, 23.6 x 13.7 pulgadas, negro.",
    url:"https://link.amazon/B0dcWPvbo"}
 ];
