@@ -35,3 +35,6 @@ header p{max-width:52ch;color:var(--muted);margin:0;font-size:1.05rem}
 footer{border-top:1px solid var(--line);padding:24px 0 40px;color:var(--muted);font-size:.85rem}
 footer p{max-width:70ch;margin:0 0 8px}
 @media (prefers-reduced-motion:no-preference){.card{transition:transform .15s}.card:hover{transform:translateY(-2px)}}
+.thumb{background:fff; padding:10px}
+.thumb img{width:100%; height:100%; object-fit:contain }
+.buy{flex:1; text-align:center}
