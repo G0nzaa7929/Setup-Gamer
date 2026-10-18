@@ -2,27 +2,27 @@
    url: tu enlace de afiliado (el que generas con Amazon Asociados → SiteStripe).
    Ejemplo: https://www.amazon.com/dp/B0XXXXXXXX?tag=tu-id-20 o un enlace corto https://amzn.to/xxxxxxx */
 const PRODUCTS = [
-  {name:"Teclado mecánico inalámbrico Redragon", cat:"Teclados", price:"", img:"",
+  {name:"Teclado mecánico inalámbrico Redragon", cat:"Teclados", price:"", img:"img/teclado.jpg",
    desc:"Redragon K742 Wireless Mechanical Gaming Keyboard with Knob for PC Computer ,Teclado cremoso inalámbrico Bluetooth 5.0/2.4GHz/USB C con teclado numérico, retroiluminación RGB, intercambiable en caliente ",
    url:"https://www.amazon.com/dp/B0F93FMYD5/ref=cm_sw_r_as_gl_apa_gl_i_BHQ3QWEY8W8E2RKFCATC?linkCode=ml1&tag=gonza03c-21&linkId=b81984b7a1de32b48187ae59b4575563&gaOptInStatus=true" },
 
-  {name:"Ratón ergonómico vertical", cat:"Ratones", price:"", img:"",
+  {name:"Ratón ergonómico vertical", cat:"Ratones", price:"", img:"img/mouse.jpg",
    desc:"Posición natural de la muñeca para jornadas largas sin molestias.",
 url:"https://www.amazon.com/dp/PEGA-AQUI-ASIN?tag=TU-ID-20"},
 
-  {name:"Soporte para portátil de aluminio", cat:"Accesorios", price:"", img:"",
+  {name:"Soporte para portátil de aluminio", cat:"Accesorios", price:"", img:"img/soporte.jpg",
    desc:"Plegable, regulable en altura y compatible con portátiles de hasta 17 pulgadas.",
 url:"https://www.amazon.com/dp/PEGA-AQUI-ASIN?tag=TU-ID-20"},
 
-  {name:"Lámpara LED de escritorio", cat:"Iluminación", price:"", img:"",
+  {name:"Lámpara LED de escritorio", cat:"Iluminación", price:"", img:"img/led.jpg",
    desc:"Luz regulable en temperatura y brillo, con carga USB integrada.",
 url:"https://www.amazon.com/dp/PEGA-AQUI-ASIN?tag=TU-ID-20"},
 
-  {name:"Auriculares con cancelación de ruido", cat:"Audio", price:"", img:"",
+  {name:"Auriculares con cancelación de ruido", cat:"Audio", price:"", img:"img/audifonos.jpg",
    desc:"Acer OHR703 Auriculares Bluetooth con cancelación de ruido adaptativos Audio inalámbrico LDAC de alta resolución, cancelación de ruido híbrido de 45 dB, modo de transparencia.",
 url:"https://link.amazon/B0bFg5CB9"},
 
-  {name:"Mousepad Aothia", cat:"Accesorios", price:"", img:"",
+  {name:"Mousepad Aothia", cat:"Accesorios", price:"", img:"img/pad.jpg",
    desc:"Aothia - Protector de escritorio de piel sintética antideslizante e impermeable para mouse, escritorio, oficina, hogar, laptop, 23.6 x 13.7 pulgadas, negro.",
    url:"https://link.amazon/B0dcWPvbo"}
 ];
